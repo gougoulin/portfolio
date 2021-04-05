@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/hover-min.css" /> -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- customized styles  -->
+    <link rel="stylesheet" href="scss/style.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body class="body-layout">
+    <!-- left sidebar -->
+    <aside class="sidebar-left">
+      <!-- my personal information -->
+      <div class="hero-wrapper">
+        <div class="hero-icon shadow-1">
+          <span
+            class="iconify hero-icon"
+            data-icon="ant-design:user-outlined"
+            data-inline="false"
+          ></span>
+        </div>
+        <div class="menu-toggler">
+          <span
+            class="iconify menu-icon bg-animation hide"
+            data-icon="ant-design:menu-outlined"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify menu-icon bg-animation"
+            data-icon="ant-design:menu-fold-outlined"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify menu-icon bg-animation hide"
+            data-icon="ant-design:menu-unfold-outlined"
+            data-inline="false"
+          ></span>
+        </div>
+      </div>
+      <h1 class="hero-name">lin lai</h1>
+      <p class="hero-introduction">
+        Hello! I am a web developer in Melbourne. I can help you to design and
+        develop websites and web applications.
+      </p>
+      <div class="btn-wrapper">
+        <a
+          href="mailto:lailin042@gmail.com"
+          class="btn cta bg-animation"
+          role="button"
+          ><span
+            class="iconify btn-icon"
+            data-icon="ant-design:mail-outlined"
+            data-inline="false"
+          ></span>
+          <span>email me</span></a
+        >
+      </div>
+      <!-- skills section - list skills I have -->
+      <div class="skills-wrapper">
+        <div class="skills-headline">my skills</div>
+        <div class="skill-item">HTML, CSS, JavaScript</div>
+        <div class="skill-item">Bootstrap</div>
+        <div class="skill-item">React</div>
+        <div class="skill-item">NodeJS, Express</div>
+        <div class="skill-item">PHP, WordPress</div>
+        <div class="skill-item">MySQL, Sequelize</div>
+        <div class="skill-item">MongoDB, Mongoose</div>
+        <div class="skill-item">Git, Webpack</div>
+        <div class="skill-item">Photoshop, Figma</div>
+      </div>
+      <div class="social-icons">
+        <a href="">
+          <span
+            class="iconify social-icon bg-animation"
+            data-icon="ant-design:github-filled"
+            data-inline="false"
+          ></span>
+        </a>
+        <a href="">
+          <span
+            class="iconify social-icon bg-animation"
+            data-icon="ant-design:linkedin-filled"
+            data-inline="false"
+          ></span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- main content  -->
+    <main class="home-main">
+      <ul class="nav-menu hidden">
+        <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#works">works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">contact</a>
+        </li>
+      </ul>
+      <header class="content-header">
+        <ul class="header-nav">
+          <li class="nav-item header-nav-item bg-animation">
+            <a class="nav-link header-nav-link" href="index.html">home</a>
+          </li>
+          <li class="nav-item header-nav-item bg-animation">
+            <a class="nav-link header-nav-link" href="#about">About me</a>
+          </li>
+          <!-- <li class="nav-item header-nav-item bg-animation">
+            <a class="nav-link header-nav-link" href="#works">Works</a>
+          </li> -->
+          <li class="nav-item header-nav-item bg-animation">
+            <a class="nav-link header-nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </header>
+      <div class="home-gallery">
+        <div class="gallery-item-wrapper">
+          <a class="item-image" href=""
+            ><img
+              class="hover-img-grow"
+              src="img/react-shopping-cart.webp"
+              alt=""
+          /></a>
+          <div class="item-description">
+            <h3 class="item-description-title">
+              react ecommerce shopping cart app
+            </h3>
+            <p class="item-description-content">
+              Keywords: <strong>React, Redux, Serverless APIs</strong>
+            </p>
+            <p class="item-description-content">
+              I independently built this demo web application with React. It
+              contains most of the functions in an eCommerce store, such as
+            </p>
+            <ul>
+              <li>fetching data from back-end APIs</li>
+              <li>selecting, filtering, and sorting the product list</li>
+              <li>CRUD operations on items in the shopping cart</li>
+            </ul>
+            <!-- <button class="card-btn bg-animation">more details</button> -->
+            <!-- <a
+              class="btn-link card-btn bg-animation btn-secondary"
+              href="https://react-shoppingcart-demo-lin.netlify.app/"
+              target="_blank"
+              role="button"
+              >view demo</a
+            > -->
+            <a
+              class="btn-link card-btn bg-animation"
+              href="https://react-shoppingcart-demo-lin.netlify.app/"
+              target="_blank"
+              role="button"
+              >view demo</a
+            >
+            <a
+              class="btn-link card-btn bg-animation btn-secondary"
+              href="https://github.com/gougoulin/shopping-cart-react-demo.git"
+              target="_blank"
+              role="button"
+              >github repo</a
+            >
+          </div>
+        </div>
+        <div class="gallery-item-wrapper gallery-item-wrapper-reverse">
+          <a class="item-image" href=""
+            ><img class="hover-img-grow" src="img/website-yesvr.webp" alt=""
+          /></a>
+          <div class="item-description">
+            <h3 class="item-description-title">WordPress Business Website</h3>
+            <p class="item-description-content">
+              Keywords: <strong>WordPress, Elementor</strong>
+            </p>
+            <p class="item-description-content">
+              I worked for YesVR to rebuild the existing website. I
+              independently designed this website with Figma and developed it
+              WordPress and Elementor page builder.
+            </p>
+            <p class="item-description-content">
+              I strictly followed the company's branding guide (logo, colors,
+              typography).
+            </p>
+            <!-- <button class="card-btn bg-animation">more details</button>
+            <a
+              class="btn-link card-btn bg-animation btn-secondary"
+              href=""
+              role="button"
+              >view site</a
+            > -->
+            <a class="btn-link card-btn bg-animation" href="" role="button"
+              >view site</a
+            >
+          </div>
+        </div>
+        <div class="gallery-item-wrapper">
+          <a class="item-image" href=""
+            ><img class="hover-img-grow" src="img/libraryMS-login.png" alt=""
+          /></a>
+          <div class="item-description">
+            <h3 class="item-description-title">NodeJS Back-end Application</h3>
+            <p class="item-description-content">
+              Keywords: <strong>NodeJS</strong>, <strong>Express</strong>,
+              <strong>React</strong>, <strong>Bootstrap</strong>,
+              <strong>MongoDB</strong>, <strong>Mongoose ORM</strong>
+            </p>
+            <p class="item-description-content">
+              I independently built this demo project that is a back-end
+              application for a library to manage its books.
+            </p>
+            <p class="item-description-content">
+              This demo demonstrated some common functionalities, like
+              <strong>CRUD</strong> of the instances of models and
+              <strong>authentication using JSON Web Token</strong>, and
+              <strong>RESTful APIs</strong>.
+            </p>
+            <!-- <button class="card-btn bg-animation">more details</button> -->
+            <!-- <a
+              class="btn-link card-btn bg-animation btn-secondary"
+              href=""
+              role="button"
+              >Github Repo</a
+            > -->
+            <a
+              class="btn-link card-btn bg-animation"
+              target="_blank"
+              href="https://github.com/gougoulin/library-management-nodejs.git"
+              role="button"
+              >Github Repo</a
+            >
+          </div>
+        </div>
+        <!-- <div class="gallery-item-wrapper">
+          <a href=""
+            ><img class="hover-img-grow" src="img/website-yesvr.webp" alt=""
+          /></a>
+          <div>
+            <h3>title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              animi nesciunt laudantium optio, perspiciatis saepe consequuntur.
+              Consequuntur laborum esse sunt.
+            </p>
+          </div>
+        </div>
+        <div class="gallery-item-wrapper">
+          <a href=""
+            ><img
+              class="hover-img-grow"
+              src="img/maik-jonietz-_yMciiStJyY-unsplash.jpg"
+              alt=""
+          /></a>
+        </div> -->
+        <!-- <div class="gallery-item-wrapper">
+          <a href=""
+            ><img
+              class="hover-img-grow"
+              src="img/altumcode-Y2m8QfYlpPY-unsplash.jpg"
+              alt=""
+          /></a>
+        </div>
+        <div>
+          <a href=""
+            ><img src="img/altumcode-Y2m8QfYlpPY-unsplash.jpg" alt=""
+          /></a>
+        </div> -->
+      </div>
+
+      <!-- section about  -->
+      <section id="about">
+        <h2 class="section-title">about me</h2>
+        <h3>Web Development Skills that I have</h3>
+        <div class="cards">
+          <div class="skill-card">
+            <h4>front end developer</h4>
+            <ul class="content-list">
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:language-html5"
+                  data-inline="false"
+                ></span>
+                <span>HTML, Semantic elements</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:language-css3"
+                  data-inline="false"
+                ></span>
+                <span>CSS, Flexbox, Grid</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:language-javascript"
+                  data-inline="false"
+                ></span>
+                <span>JavaScript, ES6</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:bootstrap"
+                  data-inline="false"
+                ></span>
+                <span>Bootstrap</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:react"
+                  data-inline="false"
+                ></span>
+                <span>React</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h4>back end developer</h4>
+            <ul class="content-list">
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:nodejs"
+                  data-inline="false"
+                ></span>
+                <span>NodeJS</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="raphael:package"
+                  data-inline="false"
+                ></span
+                ><span>Express</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:language-php"
+                  data-inline="false"
+                ></span>
+                <span>PHP</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="cib:mysql"
+                  data-inline="false"
+                ></span
+                ><span>MySQL</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="file-icons:sequelize"
+                  data-inline="false"
+                ></span
+                ><span>Sequelize</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="teenyicons:mongodb-solid"
+                  data-inline="false"
+                ></span
+                ><span>MongoDB</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="raphael:package"
+                  data-inline="false"
+                ></span
+                ><span>Mongoose</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h4>WordPress developer</h4>
+            <ul class="content-list">
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:wordpress"
+                  data-inline="false"
+                ></span>
+                <span>WordPress</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:language-php"
+                  data-inline="false"
+                ></span>
+                <span>PHP</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="la:elementor"
+                  data-inline="false"
+                ></span
+                ><span>Elementor Page Builder</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="jam:shopify-square"
+                  data-inline="false"
+                ></span
+                ><span>Shopify</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h4>Developing Tools</h4>
+            <ul class="content-list">
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="mdi:git"
+                  data-inline="false"
+                ></span>
+                <span>Git version controll</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="tabler:brand-asana"
+                  data-inline="false"
+                ></span>
+                <span>Agile Development / Asana</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="cib:adobe-photoshop"
+                  data-inline="false"
+                ></span>
+                <span>Adobe Photoshop</span>
+              </li>
+              <li class="content-item">
+                <span
+                  class="iconify"
+                  data-icon="ph:figma-logo"
+                  data-inline="false"
+                ></span>
+                <span>Figma</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h3>Work Experiences:</h3>
+        <p class="content-paragraph">
+          2021.03 - Present
+          <strong>WordPress developer, Back-end developer</strong> YesVR, Syndey
+        </p>
+        <p class="content-paragraph">
+          2020.03 - 2020.07 <strong>eCommerce manager</strong> TDRMOTO,
+          Melbourne
+        </p>
+      </section>
+      <!-- section works 
+      <section id="works">
+        <h2 class="section-title">My Works</h2>
+        <h3>React Apps</h3>
+        <div class="works-cards">
+          <div class="works-card">
+            <figure class="works-card-image-wrapper">
+              <img
+                class="works-card-image"
+                src="img/react-shopping-cart.webp"
+                alt=""
+              />
+            </figure>
+            <div class="works-card-description">
+              <div class="works-card-title">Ecommerce Shopping Cart</div>
+              <p class="works-card-detail">
+                
+              </p>
+            </div>
+          </div>
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+        </div>
+        <h3>NodeJS Apps</h3>
+        <div class="works-cards">
+          <div class="works-card">
+            <figure class="works-card-image-wrapper">
+              <img
+                class="works-card-image"
+                src="img/libraryMS-login.png"
+                alt=""
+              />
+            </figure>
+            <div class="works-card-description">
+              <div class="works-card-title">The app to manage books in a library.</div>
+              <p class="works-card-detail">
+                
+              </p>
+            </div>
+          </div>
+            <div class="works-card"></div>
+            <div class="works-card"></div>
+            <div class="works-card"></div>
+            <div class="works-card"></div>
+          </div>
+          <h3>Websites</h3>
+          <div class="works-cards">
+            <div class="works-card">
+              <figure class="works-card-image-wrapper">
+                <img
+                  class="works-card-image"
+                  src="img/website-yesvr.webp"
+                  alt=""
+                />
+              </figure>
+              <div class="works-card-description">
+                <div class="works-card-title">Business WordPress Website</div>
+                <p class="works-card-detail">
+                  
+                </p>
+              </div>
+            </div>
+            <div class="works-card">
+              <div class="works-card-image-wrapper">
+                <figure>
+                  <img
+                    class="works-card-image"
+                    src="img/portfolio.webp"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <div class="works-card-description">
+                <div class="works-card-title">Portfolio Website</div>
+                <p class="works-card-detail">
+                  
+                </p>
+              </div>
+            </div>
+            <div class="works-card"></div>
+            <div class="works-card"></div>
+            <div class="works-card"></div>
+          </div>
+        </div>
+        <h3>JavaScript Snippets</h3>
+        <div class="works-cards">
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+        </div>
+        <h3>UI & UX Designs</h3>
+        <div class="works-cards">
+          <div class="works-card">
+            <div class="works-card-image-wrapper">
+              <figure>
+                <img
+                  class="works-card-image"
+                  src="img/portfolio-prototype.jpg"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="works-card-description">
+              <div class="works-card-title">Portfolio Website</div>
+              <p class="works-card-detail">
+                <a href="https://www.figma.com/proto/dqWiQ8kq1JVqaV2DSFo79r/my-homepage?node-id=8%3A23&scaling=min-zoom&page-id=8%3A22" target="_blank">view</a>
+              </p>
+            </div>
+          </div>
+          <div class="works-card">
+            <div class="works-card-image-wrapper">
+              <figure>
+                <img
+                  class="works-card-image"
+                  src="img/portfolio-prototype.jpg"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="works-card-description">
+              <div class="works-card-title">Portfolio Website</div>
+              <p class="works-card-detail">
+                <a href="https://www.figma.com/proto/Hmj6hgUM0LYh2C3XFKFSB2/YesVR-Interview-Task?node-id=146%3A29&scaling=min-zoom&page-id=146%3A28" target="_blank">view</a>
+              </p>
+            </div>
+          </div>
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+          <div class="works-card"></div>
+        </div>
+      </section> -->
+
+      <!-- section contact  -->
+      <section id="contact">
+        <h2 class="section-title">contact me</h2>
+        <h3>Currently, I am available.</h3>
+
+        <p class="content-paragraph">
+          Click the button on the left to send me your messages via
+          <a href="mailto:lailin042@gmail.com">email</a> , and I will get in
+          touch.
+        </p>
+      </section>
+
+      <footer>Lin Lai &copy; 2021. All rights reserved.</footer>
+    </main>
+
+    <!-- js scripts   -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <!-- iconify icons  -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
